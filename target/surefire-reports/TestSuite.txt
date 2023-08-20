@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.589 s <<< FAILURE! - in TestSuite
+feature(testRunnerProject8.TestRunnerProject8)  Time elapsed: 26.378 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Sign up successful.}
+  (Session info: chrome=109.0.5414.120): Sign up successful.
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d121911e055e8b67dd7b8c77df03709f, findElement {using=id, value=signInModal}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LIPU\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57996/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d121911e055e8b67dd7b8c77df03709f
+Caused by: org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Sign up successful.}
+  (Session info: chrome=109.0.5414.120): Sign up successful.
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d121911e055e8b67dd7b8c77df03709f, findElement {using=id, value=signInModal}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LIPU\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57996/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d121911e055e8b67dd7b8c77df03709f
+

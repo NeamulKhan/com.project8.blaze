@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4994163594,
+              "duration": 7138871248,
               "status": "passed"
             },
             "line": 8,
@@ -24,9 +24,58 @@
                   "offset": 8
                 }
               ],
-              "location": "StepDefinationProject8.launch(String)"
+              "location": "Signup_Project8.launch(String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5084103636,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click signup link",
+            "match": {
+              "location": "Signup_Project8.click_signup_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5414538576,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user can see sign up page",
+            "match": {
+              "location": "Signup_Project8.verify_user_can_see_sign_up_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3201145591,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter username and password and click sign up button",
+            "match": {
+              "location": "Signup_Project8.enter_username_and_password_and_click_sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5228969268,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Sign up successful.}\n  (Session info: chrome\u003d109.0.5414.120): Sign up successful.\nBuild info: version: \u00274.7.1\u0027, revision: \u0027c6795baf1a3\u0027\nSystem info: os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.16.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d121911e055e8b67dd7b8c77df03709f, findElement {using\u003did, value\u003dsignInModal}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\LIPU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57996/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d121911e055e8b67dd7b8c77df03709f\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)\r\n\tat com.project8.PageAction.SignupPageActionProject8.verifyAccountCreated(SignupPageActionProject8.java:25)\r\n\tat stepDefinationProject8.Signup_Project8.verify_user_can_successfully_create_account(Signup_Project8.java:47)\r\n\tat ✽.Then verify user can successfully create account(Signup_Project8.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "verify user can successfully create account",
+            "match": {
+              "location": "Signup_Project8.verify_user_can_successfully_create_account()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
