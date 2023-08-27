@@ -8,9 +8,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 import utilityProject8.BaseClassProject8;
 
 
-@CucumberOptions(features = {"src\\test\\resources\\featureFolderProject8 "}, //copy and paste of feature folder
+@CucumberOptions(features = {"/src/test/resources/featureFolderProject8 "}, //copy and paste of feature folder
 plugin = {"json:target/cucumber.json"},
-glue ="stepDefinationProject8", tags= {"@Signup8"} //paste stepDefination package name
+glue ="stepDefinationProject8", tags= {"@Login8"} //@Signup8,paste stepDefination package name
 )
 
 
